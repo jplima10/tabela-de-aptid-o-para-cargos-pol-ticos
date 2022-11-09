@@ -1,0 +1,16 @@
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18 and idade <= 21: 
+  print("Esta apto a se candidatar a vereador")
+
+elif idade >= 21 and idade <= 29:
+  print("Esta apto a se candidatar a vereador, prefeito, vice-prefeito, deputado federal, estadual, distrital")
+
+elif idade >= 30 and idade <= 34:
+  print("Esta apto a se candidatar a vereador, prefeito, vice-prefeito, deputado federal, estadual, distrital, governador e vice-governador")
+
+elif idade >= 35:
+  print("Esta apto a se candidatar a vereador, prefeito, vice-prefeito, deputado federal, estadual, distrital, governador e vice-governador, presidente, vice-presidente")
+
+else:
+  print("Você não está apto")
